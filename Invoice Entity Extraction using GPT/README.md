@@ -1,4 +1,3 @@
-# **Invoice Extraction Bot**
 ![Invoice Extraction Bot](invoice_bot.png)
 
 ## **Description**
