@@ -5,7 +5,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.schema import Document  # Import the Document class
 
 # Set API key for OpenAI
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = ''
 
 # Set OpenAI LLM
 llm_chat = ChatOpenAI(temperature=0.7, model='gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
