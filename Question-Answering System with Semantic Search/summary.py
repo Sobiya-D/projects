@@ -10,8 +10,8 @@ from langchain.chains import load_summarize_chain
 from pinecone import Pinecone, ServerlessSpec
 
 # Set API key for OpenAI and Pinecone directly
-os.environ['OPENAI_API_KEY'] = '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'
-os.environ['PINECONE_API_KEY'] = '556ae869-b77f-4fa6-b59a-e7d6de812d0b'
+os.environ['OPENAI_API_KEY'] = ''
+os.environ['PINECONE_API_KEY'] = ''
 
 # Initialize Pinecone
 pc = Pinecone(api_key=os.environ['PINECONE_API_KEY'])
