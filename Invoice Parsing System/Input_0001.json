@@ -1,0 +1,17 @@
+{
+	"bot_input": [
+	{
+			"InputId": "1",
+            "OutputId": "2",
+            "mobid": "3",
+            "clientid": "4",
+            "in_id": "1",
+			"ref_id": "MOB_REGX_REPL_002",
+			"s3_input_stem": "Inhouse-Invoice-Parser/ocr_outputs/",
+			"input_file_name" : "invoice_316.json",
+			"endpoint_for_invoice_parser" : "http://10.101.11.23:8002/parse_invoice"
+	}
+	]
+}
+
+

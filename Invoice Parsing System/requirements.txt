@@ -1,0 +1,4 @@
+requests
+pyyaml
+public_ip
+boto3
