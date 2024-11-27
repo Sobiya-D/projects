@@ -10,15 +10,15 @@ Original file is located at
 #setting the openai key
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 #neo4j database connection credentials
 
 from langchain.graphs import Neo4jGraph
 
 url = "bolt://localhost:7687"
-username ="neo4j"
-password = "neoquery"
+username =""
+password = ""
 
 graph = Neo4jGraph(
     url=url,
@@ -85,7 +85,7 @@ prompt_sentence
 import openai
 
 # Set up your OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 # Define the prompt
 prompt = f"Code a Python script to {prompt_sentence}"
