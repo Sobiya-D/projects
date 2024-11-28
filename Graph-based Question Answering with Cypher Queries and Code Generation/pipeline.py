@@ -11,7 +11,7 @@ openai.api_key = OPENAI_API_KEY
 
 def run_pipeline(question):
     # Neo4j Database Connection
-    url = "bolt://localhost:7687"
+    url = ""
     username = ""
     password = ""
     graph = connect_to_neo4j(url, username, password)
