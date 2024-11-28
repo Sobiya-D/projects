@@ -16,7 +16,7 @@ os.environ["OPENAI_API_KEY"] = ""
 
 from langchain.graphs import Neo4jGraph
 
-url = "bolt://localhost:7687"
+url = ""
 username =""
 password = ""
 
